@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Клініка зору</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="header__logo-container">
+                <img class="header__logo" src="img/header-logo.png" alt="Логотип сайту">
+            </div>
+            <div class="header__menu">
+                <a class="header__menu-item" href="#services">Послуги</a>
+                <a class="header__menu-item" href="#prices">Ціни</a>
+                <a class="header__menu-item" href="#contacts">Контакти</a>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="home">
+            <h1 class="home__title">Хороший зір <br> для всіх!</h1>
+            <p class="home__slogan">Ми допоможемо вам виправити і покращити <br>ваш зір в самі короткі терміни</p>
+            <a class="home__btn-start" href="#prices">Старт !</a>
+        </section>
+        <section id="services" class="services">
+            <h2 class="services__title">Послуги</h2>
+            <table class="services__table">
+                <tr class="services__table-rov">
+                    <td class="services__item">Провірка зору</td>
+                    <td class="services__item">Дитяче відділення</td>
+                    <td class="services__item">Лазерна корекція зору</td>
+                </tr>
+                <tr class="services__table-rov">
+                    <td class="services__item">Лікування кератоконуса</td>
+                    <td class="services__item">Лазерне лікування захворювань очей</td>
+                    <td class="services__item">Лікування катаракти</td>
+                </tr>
+            </table>
+        </section>
+        <section id="prices" class="prices">
+            <h2 class="prices__title">Ціни</h2>
+            <article class="prices__cards">
+                <header class="prices__card-header">
+                    <h3 class="prices__card-header__title">Діагностика</h3>
+                </header>
+                <div class="prices__card-content">
+                    <ul class="prices__text">
+                        <li class="prices__text-item">Комплексний огляд</li>
+                        <li class="prices__text-item">Скрінінг враження очей при діабеті</li>
+                        <li class="prices__text-item">Комплексний огляд з додатковим сервісом</li>
+                    </ul>
+                </div>
+                <footer class="prices__card-footer">
+                    <p class="prices__card-price">75$</p>
+                    <button class="prices__card-btn">Купити</button>
+                </footer>
+            </article>
+            <article class="prices__cards">
+                <header class="prices__card-header">
+                    <h3 class="prices__card-header__title">Послуги комфорту</h3>
+                </header>
+                <div class="prices__card-content">
+                    <ul class="prices__text">
+                        <li class="prices__text-item">Денний стаціонар</li>
+                        <li class="prices__text-item">Надання медичної допомоги</li>
+                        <li class="prices__text-item">Нагляд лікаря днем</li>
+                        <li class="prices__text-item">Терапія тривожних станів</li>
+                    </ul>
+                </div>
+                <footer class="prices__card-footer">
+                    <p class="prices__card-price">100$</p>
+                    <button class="prices__card-btn">Купити</button>
+                </footer>
+            </article>
+            <article class="prices__cards">
+                <header class="prices__card-header">
+                    <h3 class="prices__card-header__title">Апаратне лікування</h3>
+                </header>
+                <div class="prices__card-content">
+                    <ul class="prices__text">
+                        <li class="prices__text-item">Пакет "Амбліопія"</li>
+                        <li class="prices__text-item">Пакет "Косоокість"</li>
+                        <li class="prices__text-item">Пакет "Резерви аккомодації"</li>
+                        <li class="prices__text-item">Пакет "Косоокість + амбліопія"</li>
+                    </ul>
+                </div>
+                <footer class="prices__card-footer">
+                    <p class="prices__card-price">30$</p>
+                    <button class="prices__card-btn">Купити</button>
+                </footer>
+            </article>
+        </section>
+        <section id="contacts" class="contacts">
+            <form class="contacts__form" action="#" method="post">
+                <input class="contacts__input" type="text" placeholder="Введіть своє повне ім'я*" name="user-name"required>
+                <input class="contacts__input" type="tel" placeholder="Введіть свій номер*" name="user-phone"required>
+                <input class="contacts__input" type="email" placeholder="Введіть свій імейл*" name="user-email" required>
+                <input class="contacts__input" type="text" placeholder="Введіть своє повідомлення" name="message">
+                <input class="contacts__input-btn" type="submit" value="Зв'язатись з нами">
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>ⓒ Всі права захищені</p>
+    </footer>
+</body>
+
+</html>

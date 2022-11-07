@@ -1,0 +1,21 @@
+.header {
+    margin: 20px 50px;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu-item {
+    margin: auto 70px;
+    color: var(--title-color);
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+}
+:hover.header__menu-item {
+    color: var(--text-color);
+}
