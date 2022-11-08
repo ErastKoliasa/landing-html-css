@@ -1,0 +1,12 @@
+.footer {
+    margin-top: 60px;
+    background-color: var(--title-color);
+    height: 80px;
+}
+
+.footer__text{
+    text-align: center;
+    color: var(--btn-text-color);
+    font-size: 16px;
+    padding-top: 40px;
+}

@@ -1,0 +1,28 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services__title {
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--title-color);
+}
+
+.services__table {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    border-spacing: 30px;
+}
+
+.services__item {
+    background-color: var(--background-color);
+    border-radius: 30px;
+    width: 220px;
+    height: 70px;
+    text-align: center;
+    font-size: 16px;
+    color: var(--text-color);
+}

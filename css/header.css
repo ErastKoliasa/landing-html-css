@@ -1,5 +1,9 @@
 .header {
-    margin: 20px 50px;
+    background-color: var(--btn-text-color);
+    padding: 15px 25px;;
+    position: fixed;
+    top: 0;
+    width: 100%; 
 }
 .header__nav {
     display: flex;

@@ -1,0 +1,45 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__title {
+    padding: 60px;
+    color: var(--title-color);
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+}
+.contacts__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts__input {
+    margin: 10px 0px;
+    width: 25%;
+    height: 50px;
+    padding: 10px;
+    color: var(--text-color);
+    font-size: 16px;
+    border: 1px solid var(--title-color);
+    border-radius: 30px;
+}
+
+.contacts__input-btn {
+    margin: 10px 0px;
+    width: 25%;
+    height: 60px;
+    padding: 10px;
+    color: var(--btn-text-color);
+    font-size: 24px;
+    font-weight: 600;
+    background-color: var(--title-color);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+:hover.contacts__input-btn{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
+}
